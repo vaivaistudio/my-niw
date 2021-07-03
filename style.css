@@ -1,0 +1,116 @@
+/*----------------- Defult Css */
+img{
+    max-width: 100%;
+
+}
+body .btn-primary{
+    background-color: red !important;
+    border: red;
+    padding: 10px 30px;
+    position: relative;
+    z-index: 1;
+    left: -1;
+}
+body .btn-primary::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+   
+    width: 100%;
+    height:0% ;
+  
+    background-color: #111;
+    z-index: -1;
+    transition: .40s;
+    display: block;
+}
+body .btn-primary:hover::after{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 
+    
+    
+
+
+}
+
+/*------------------ manu css */
+
+ul.castom-manu {
+    margin-top: 15px;
+}
+ul.castom-manu li{
+    list-style: none;
+   
+}
+ul.castom-manu li a{
+    padding: 20px 20px;
+    font-weight: 500;
+    text-decoration: none;
+ 
+}
+
+.headar-hearch span{
+      font-size: 25px;
+    margin-right: 15px;
+    border-right: 1px solid rgb(216, 201, 201);
+    padding-right: 10px;
+}
+.headar-hearch{
+    margin-top: 10px;
+}
+.headar-coll{
+    width: 200px;
+    margin-top: 10px;
+}
+.headar-coll-colo {
+    color: red;
+    font-size: 28px;
+   
+}
+/* lgogog zesecyiomn    */
+
+/* Bannar Section css*/
+.Bannar-section{
+    background: url(./main-banner2.jpg) no-repeat center center;
+    padding: 260px 0;
+    background-attachment: fixed;
+    
+}
+.bannar-inforamation h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.about-logo-img{
+    position: relative;
+}
+}
+h2 {
+        font-size: 81px;
+    margin-top: -32px;
+    margin-bottom: -46px;
+    color: red;
+}
+.about-text-age{
+    position: absolute;
+	right: 0;
+	bottom: 0;
+	background: url(./shape.png);
+	height: 200px;
+	width: 200px;
+	background-size: contain;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
